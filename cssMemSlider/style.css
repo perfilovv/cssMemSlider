@@ -43,3 +43,15 @@ body {
     height: 50vh;
     transition: transform 0.4s ease 0.2s;
 }
+.slide1 {
+    background-image: url("Assets/druzhko.jpg")
+}
+.slide2 {
+    background-image: url("Assets/chipseki.png")
+}
+.slide3 {
+    background-image: url("Assets/ironman.jpg")
+}
+.slide4 {
+    background-image: url("Assets/w8.jpg")
+}

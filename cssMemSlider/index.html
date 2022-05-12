@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cssSlider</title>
+    <title>cssMemSlider</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <div class="slider">
+        <input type="radio" name="sldr" id="slide-1" checked>
+        <input type="radio" name="sldr" id="slide-2">
+        <input type="radio" name="sldr" id="slide-3">
+        <input type="radio" name="sldr" id="slide-4">
+        <div class="slide slide1"></div>
+        <div class="slide slide2"></div>
+        <div class="slide slide3"></div>
+        <div class="slide slide4"></div>
+    </div>
+    <div class="slider-text-wrapper">
+        <div class="text text1"></div>
+        <div class="text text2"></div>
+        <div class="text text3"></div>
+        <div class="text text4"></div>
+    </div>
+    <div class="slider-sldr-wrapper">
+        <label for="slide-1" class="pagination1">
+            <span class="pagination-dot"></span>
+        </label>
+        <label for="slide-2" class="pagination2">
+            <span class="pagination-dot"></span>
+        </label>
+        <label for="slide-3" class="pagination3">
+            <span class="pagination-dot"></span>
+        </label>
+        <label for="slide-4" class="pagination4">
+            <span class="pagination-dot"></span>
+        </label>
+    </div>
 </body>
 </html>

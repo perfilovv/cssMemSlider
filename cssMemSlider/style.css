@@ -1,12 +1,6 @@
 :root {
-  --basic-with: 90vw;
+  --basic-with: 60vw;
 }
-
-/* @media screen and (max-width: 768px) {
-  :root {
-    --basic-with: 90vw;
-  }
-} */
 
 * {
   box-sizing: border-box;
@@ -74,12 +68,12 @@ body {
   z-index: 2;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .slider {
     display: flex;
     flex-direction: column;
   }
-
+  
   .slider-text-wrapper {
     order: 1;
   }
@@ -106,6 +100,7 @@ input {
 
 .slide1 {
   background-image: url("Assets/druzhko.jpg");
+
 }
 
 .slide2 {
@@ -198,8 +193,19 @@ input {
     width: 0.75rem;
     height: 0.75rem;
   }
+  .text ~ .hide {
+    display:block;
+  }
+  .text ~ .text4 {
+    display: none;
+  }
 }
-
+.text ~ .hide {
+  display:none;
+}
+.text ~ .text4 {
+  display: block;
+}
 #slide-1:checked ~ .slider-sldr-wrapper > .pagination1 > span {
   background-color: transparent;
   border: 2px solid #00c3ff;

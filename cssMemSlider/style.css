@@ -113,11 +113,11 @@ input {
 }
 
 .slide3 {
-  background-image: url("Assets/ironman.jpg");
+  background-image: url("Assets/robert-downey-jr-mem-shablon-1.jpg");
 }
 
 .slide4 {
-  background-image: url("Assets/w8.jpg");
+  background-image: url("");
 }
 
 .sldr {
@@ -138,7 +138,7 @@ input {
 }
 
 .sldr:hover .pagination-dot {
-  background-color: #000000;
+  background-color: #ffffff;
   transition: background 0.4s ease-in-out;
 }
 
@@ -198,4 +198,40 @@ input {
     width: 0.75rem;
     height: 0.75rem;
   }
+}
+
+#slide-1:checked ~ .slider-sldr-wrapper > .pagination1 > span {
+  background-color: transparent;
+  border: 2px solid #00c3ff;
+}
+
+#slide-1:checked ~ .slider-sldr-wrapper > .pagination1:hover span {
+  border-color: #ffffff;
+}
+
+#slide-2:checked ~ .slider-sldr-wrapper > .pagination2 > span {
+  background-color: transparent;
+  border: 2px solid #00c3ff;
+}
+
+#slide-2:checked ~ .slider-sldr-wrapper > .pagination2:hover span {
+  border-color: #ffffff;
+}
+
+#slide-3:checked ~ .slider-sldr-wrapper > .pagination3 > span {
+  background-color: transparent;
+  border: 2px solid #00c3ff;
+}
+
+#slide-3:checked ~ .slider-sldr-wrapper > .pagination3:hover span {
+  border-color: #ffffff;
+}
+
+#slide-4:checked ~ .slider-sldr-wrapper > .pagination4  span {
+  background-color: transparent;
+  border: 2px solid #00c3ff;
+}
+
+#slide-4:checked ~ .slider-sldr-wrapper > .pagination4:hover span {
+  border-color: #ffffff;
 }

@@ -161,3 +161,41 @@ input {
   transform: translateX(-75%);
   transition: transform 0.4s ease-in-out;
 }
+.slider-text-wrapper .text {
+  width: 100%;
+  font-size: 1.2rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 360px) {
+  .slider-text-wrapper .text {
+    font-size: 1rem;
+  }
+}
+
+#slide-1:checked ~ .slider-text-wrapper {
+  transform: translateX(0);
+  transition: transform 0.4s ease-in-out;
+}
+
+#slide-2:checked ~ .slider-text-wrapper {
+  transform: translateX(-25%);
+  transition: transform 0.4s ease-in-out;
+}
+
+#slide-3:checked ~ .slider-text-wrapper {
+  transform: translateX(-50%);
+  transition: transform 0.4s ease-in-out;
+}
+
+#slide-4:checked ~ .slider-text-wrapper {
+  transform: translateX(-75%);
+  transition: transform 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .pagination-dot {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+}

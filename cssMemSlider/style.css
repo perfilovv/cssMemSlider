@@ -2,7 +2,7 @@
   --basic-with: 70vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   :root {
     --basic-with: 90vw;
   }
@@ -74,7 +74,7 @@ body {
   z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .slider {
     display: flex;
     flex-direction: column;
@@ -98,7 +98,7 @@ input {
   width: 100%;
   height: 100%;
   border-radius: 0.5rem;
-  background-color: #41444675;
+  background-color: #2e206383;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -117,7 +117,7 @@ input {
 }
 
 .slide4 {
-  background-image: url("");
+  background-image: url("Assets/di-kaprio-pet-i-smeetsja-mem.jpg");
 }
 
 .sldr {
@@ -193,7 +193,7 @@ input {
   transition: transform 0.4s ease-in-out;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .pagination-dot {
     width: 0.75rem;
     height: 0.75rem;
@@ -204,7 +204,9 @@ input {
   background-color: transparent;
   border: 2px solid #00c3ff;
 }
-
+#slide-1:active ~ .slider-sldr-wrapper > .pagination1 > span {
+  background-color:#000000;
+}
 #slide-1:checked ~ .slider-sldr-wrapper > .pagination1:hover span {
   border-color: #ffffff;
 }
@@ -213,7 +215,9 @@ input {
   background-color: transparent;
   border: 2px solid #00c3ff;
 }
-
+#slide-2:active ~ .slider-sldr-wrapper > .pagination2 > span {
+  background-color:#000000;
+}
 #slide-2:checked ~ .slider-sldr-wrapper > .pagination2:hover span {
   border-color: #ffffff;
 }
@@ -222,7 +226,9 @@ input {
   background-color: transparent;
   border: 2px solid #00c3ff;
 }
-
+#slide-3:active ~ .slider-sldr-wrapper > .pagination3 > span {
+  background-color:#000000;
+}
 #slide-3:checked ~ .slider-sldr-wrapper > .pagination3:hover span {
   border-color: #ffffff;
 }
@@ -231,7 +237,9 @@ input {
   background-color: transparent;
   border: 2px solid #00c3ff;
 }
-
+#slide-4:active ~ .slider-sldr-wrapper > .pagination4 > span {
+  background-color:#000000;
+}
 #slide-4:checked ~ .slider-sldr-wrapper > .pagination4:hover span {
   border-color: #ffffff;
 }
